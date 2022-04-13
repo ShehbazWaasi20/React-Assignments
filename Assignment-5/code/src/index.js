@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Postview from './Postview';
+// import Postview from './Postview';
 import reportWebVitals from './reportWebVitals';
+import Lastpage from "./Lastpage"
+import Firstview from './Firstview';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Postview />
+    {/* <Postview /> */}
+    <Firstview/>
+    {/* <Lastpage/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

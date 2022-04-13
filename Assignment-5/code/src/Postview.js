@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Post from './Post';
+import Header from './Post/Header';
 
 
 const Postview=()=> {
@@ -16,11 +17,7 @@ const Postview=()=> {
 
     return (
     <div className="Post-view">
-      <div class="instaclone">
-       <img className='circle' src="../assets/circle.png" alt="error" />
-       <h3>Instaclone</h3>
-       <img className='cam-icon' src="../assets/cam.jpg" alt="cam icon" />
-    </div>
+      <Header/>
     <div className='content'>
       {posts.map((post,index)=> (
           <Post key={index} config={post}/>

@@ -1,13 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Content from './components/Content';
 
 
-var arrow="<"
+
 function App() {
   return (
     <div className="site-container">
     {/* Start Your code here */}
+    <Content/>
     </div>
   );
 }

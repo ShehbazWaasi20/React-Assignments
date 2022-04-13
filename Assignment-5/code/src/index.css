@@ -30,7 +30,7 @@ body {
 .instaclone{
   height: 10vh;
   width: 80vw;
-  border: 1px solid;
+  /* border: 1px solid; */
   margin: auto;
 }
 .instaclone>h3{

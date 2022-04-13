@@ -1,0 +1,26 @@
+{
+    "user":  [
+           {"name":"Siva",
+            "location":"Bengaluru",
+            "likes":"64 likes",
+            "description": "Kick start your career",
+            "PostImage": "10x.png",
+            "date": "11-04-2022"
+            },
+            {"name":"Neeraj",
+            "location":"Pune",
+            "likes":"30 likes",
+            "description": "Sample Description",
+            "PostImage": "van.webp",
+            "date": "6-04-2022"
+            },
+            {"name":"Rahul",
+            "location":"Hyderabad",
+            "likes":"1.5K likes",
+            "description": "Sample Description for Post",
+            "PostImage": "ipl.jpg",
+            "date":"8-04-2022"
+            }
+            ]
+}
+ 

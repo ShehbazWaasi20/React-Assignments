@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.PostContainer {
+  height: 340px;
+  width: 25vw;
+  border: 1px solid;
+  margin: auto;
+}
+
+.postImage>img{
+  width: 383px;
+  height: 200px;
+  /* max-height: 100vh; */
+  /* max-width: 100vw; */
+  display: flex;
+  flex-shrink: 2rem;
+}
+.instaclone{
+  height: 10vh;
+  width: 80vw;
+  /* border: 1px solid; */
+  margin: auto;
+}
+.instaclone>h3{
+  display: inline;
+  color: green;
+  font-size: 40px;
+  line-height: 70px;
+}
+.cam-icon{
+  height: 2rem;
+  width: 2rem;
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.circle{
+  height: 30px;
+  width: 30px;
+}
+
+.postHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.PostTitle{
+  font-weight: bold;
+}
+.likebtn,.ShareBtn{
+  background-color: white;
+  border: none;
+}
+
+.ShareBtn{
+  position: relative;
+  top: 2.5px;
+}
+
+.tap,.share{
+  width: 30px;
+}
+
+.Postdetail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.PostedON{
+    margin-top: 5px;
+    margin-right: 5px;
+    font-weight: lighter;
+}
+
+.Likes{
+    margin-left: 9px;
+    font-weight: lighter;
+}
+
+.PostCaption{
+  font-weight: bold;
+  margin-left: 8px;
+}
